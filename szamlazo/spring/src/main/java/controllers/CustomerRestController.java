@@ -28,6 +28,8 @@ import java.util.Map;
 public class CustomerRestController {
 
     private static final int sessionTimeoutPeriodinMinutes = 10;
+    private static final double freeShippingOver = 5000;
+    private static final double shippingPrice = 50;
 
     @Autowired
     private CustomerServiceImpl customerJsonDB;
@@ -148,13 +150,18 @@ public class CustomerRestController {
                 System.out.println("USER: " + email + "\nCART: " + cartString);
                 JSONArray cart = new JSONArray(cartString);
                 Map<String, Integer> cartMap = new HashMap<>();
+                double totalPrice = 0;
                 for (int i = 0; i < cart.length(); i++){
                     JSONObject item = new JSONObject(cart.get(i).toString());
-                    cartMap.put(item.getString("barcode"), item.getInt("quantity"));
+                    String barcode = item.getString("barcode");
+                    int qty = item.getInt("quantity");
+                    cartMap.put(barcode , qty);
+                    totalPrice += itemJsonDB.getItem(barcode).getPrice() * qty;
                 }
                 Invoice invoice = new Invoice(
                        customerJsonDB.getCustomerByEmail(email).getId(),
-                        cartMap
+                        cartMap,
+                        totalPrice >= freeShippingOver ? 0 : shippingPrice
                 );
                 invoiceJsonDB.addInvoice(invoice);
                 return new JSONObject().put("error", "0").put("msg", "Sucessfull checkout!").toString();
@@ -200,14 +207,16 @@ public class CustomerRestController {
                                 .put("manufacturer", itemObj.getManufacturer())
                                 .put("barcode", itemObj.getBarcode())
                                 .put("quantity", quantity)
-                                .put("price", price);
+                                .put("price", price)
+                                .put("unitPrice", itemObj.getPrice());
                         itemList.put(item);
                     }
                     obj.put("id", invoice.getId())
                             .put("itemList", itemList)
                             .put("totalPrice", totalPrice)
                             .put("totalQuantity", totalQuantity)
-                            .put("date", invoice.getDate().toString());
+                            .put("date", invoice.getDate().toString())
+                            .put("shipping", invoice.getShipping());
 
                     responseArray.put(obj);
                 }

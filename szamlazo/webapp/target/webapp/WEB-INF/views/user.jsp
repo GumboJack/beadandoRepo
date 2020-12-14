@@ -138,11 +138,12 @@
                             $.each(items, function (index2, value2) {
                                 $('tbody').append('<tr>\n' +
                                     '                                <td>' + value2.manufacturer + ' ' + value2.name + '</td>\n' +
-                                    '                                <td class="text-xs-center">$' + value2.price + '</td>\n' +
+                                    '                                <td class="text-xs-center">$' + value2.unitPrice + '</td>\n' +
                                     '                                <td class="text-xs-center">' + value2.quantity + '</td>\n' +
-                                    '                                <td class="text-xs-right">$' + value2.price * value2.quantity + '</td>\n' +
+                                    '                                <td class="text-xs-right">$' + value2.price + '</td>\n' +
                                     '                            </tr>');
                             });
+                            var shipping = value.shipping === 0 ? "FREE" : "$" + value.shipping; console.log(shipping);
                             $('tbody').append('<tr>\n' +
                                 '                                <td class="highrow"></td>\n' +
                                 '                                <td class="highrow"></td>\n' +
@@ -153,7 +154,7 @@
                                 '                                <td class="emptyrow"></td>\n' +
                                 '                                <td class="emptyrow"></td>\n' +
                                 '                                <td class="emptyrow text-xs-center"><strong>Shipping</strong></td>\n' +
-                                '                                <td class="emptyrow text-xs-right">' + value.totalQuantity + ' items</td>\n' +
+                                '                                <td class="emptyrow text-xs-right">' + shipping + '</td>\n' +
                                 '                            </tr>\n' +
                                 '                            <tr>\n' +
                                 '                                <td class="emptyrow"><i class="fa fa-barcode iconbig"></i></td>\n' +
