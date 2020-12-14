@@ -17,20 +17,34 @@
 <jsp:include page="../navbar.jsp" />
 <jsp:include page="../modal.jsp" />
 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+
 <div class="container">
 
     <div class="row">
 
         <div class="col-lg-3">
-
             <h1 class="my-4">Items</h1>
-            <label for="lg1"><h3>Categories</h3></label>
-            <div class="list-group" id="lg1">
-            </div>
-            <label for="lg2"><h3>Manufacturers</h3></label>
-            <div class="list-group" id="lg2">
-            </div>
+            <form>
 
+                <div class="form-group">
+                    <label for="itemTypes"><h3>Categories</h3></label>
+                    <select class="selectpicker" data-live-search="true" multiple id="itemTypes"></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="manufacturers"><h3>Manufacturers</h3></label>
+                    <select class="selectpicker" data-live-search="true" multiple id="manufacturers"></select>
+                </div>
+                <div>
+                    <button type="button" id="btn_filter">Filter</button>
+                </div>
+
+            </form>
         </div>
         <!-- /.col-lg-3 -->
 
@@ -84,11 +98,65 @@
     var manufacturers = {};
 
     $(document).ready(function() {
+        $('#btn_filter').off('click').on('click', function () {
+            $('#datarow').empty();
+
+            var types = $('#itemTypes').val();
+            var manufacturers = $('#manufacturers').val();
+            console.log(types);
+            console.log(manufacturers);
+
+            $.ajax({
+                method: 'GET',
+                url: 'http://localhost:8081/rest/items',
+                contentType: 'application/json;charset=UTF-8',
+                data: {
+                    "type": JSON.stringify(types),
+                    "manufacturer": JSON.stringify(manufacturers)
+                },
+                async: true,
+                success: function (data) {
+
+                    if (data.error === '0') {
+                        items = data.items;
+                        console.log(items);
+                        $.each(items, function (index, value) {
+                            $('#datarow').append('<div class="col-lg-4 col-md-6 mb-4">\n' +
+                                '                    <div class="card h-100">\n' +
+                                '                        <a href="#"><img class="card-img-top" src="-" alt="" onerror="this.onerror=null; this.src = \'https://icuccok.hu/wp-content/uploads/2018/04/Apple_logo_szivarvany.png\'"></a>\n' +
+                                '                        <div class="card-body">\n' +
+                                '                            <h4 class="card-title">\n' +
+                                '                                <a class="a2" href="#">' + value.manufacturer +' </a>' +
+                                '                                <a>' + value.name + '</a>\n' +
+                                '                            </h4>\n' +
+                                '                            <h5>$' + value.price + '</h5>\n' +
+                                '                            <p class="card-text">' + value.description + '</p>\n' +
+                                '                        </div>\n' +
+                                '                        <div class="card-footer">\n' +
+                                '                            <button type="button" class="btn btn-dark" onclick="addToCart(' +index+');">Add to cart</button>\n' +
+                                '                        </div>\n' +
+                                '                    </div>\n' +
+                                '                </div>')
+                        });
+                    } else {
+                        showErrorModal(data.msg);
+                    }
+                },
+                error: function (xhr) {
+                    console.log(xhr.responseText);
+                    showErrorModal("Unknown error!")
+                }
+            });
+        });
 
         $.ajax({
             method: 'GET',
             url: 'http://localhost:8081/rest/items',
             contentType: 'application/json;charset=UTF-8',
+            data: {
+                "type": "[]",
+                "manufacturer": "[]"
+            },
             async: true,
             success: function (data) {
 
@@ -134,10 +202,9 @@
                     itemtypes = data.itemTypes;
                     console.log(itemtypes);
                     $.each(itemtypes, function (index, value) {
-                        $('#lg1').append(
-                            '<a class="a3" href="#" class="list-group-item">' + value.toLowerCase() + '</a>'
-                        );
+                        $('#itemTypes').append('<option value="' + value.toUpperCase() + '">' + value.toLowerCase() + '</option>');
                     });
+                    $('#itemTypes').selectpicker('refresh');
                 }
             },
             error: function (xhr) {
@@ -157,10 +224,9 @@
                     manufacturers = data.manufacturers;
                     console.log(manufacturers);
                     $.each(manufacturers, function (index, value) {
-                        $('#lg2').append(
-                            '<a class="a3" href="#" class="list-group-item">' + value + '</a>'
-                        );
+                        $('#manufacturers').append('<option value="' + value + '">' + value + '</option>');
                     });
+                    $('#manufacturers').selectpicker('refresh');
                 }
             },
             error: function (xhr) {
@@ -219,10 +285,6 @@
 
     .a2 {
         color: darkslategray;
-    }
-
-    .a3 {
-        text-transform: capitalize;
     }
 
 </style>

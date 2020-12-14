@@ -6,6 +6,7 @@ import exception.ObjectDoesNotExistException;
 import model.Item;
 import model.ItemType;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class ItemServiceImpl implements IItemService {
@@ -49,17 +50,23 @@ public class ItemServiceImpl implements IItemService {
         return dao.getItems();
     }
 
-    public Collection<Item> getItemsByType(ItemType type) {
-        return dao.getItemsByType(type);
+    public Collection<Item> getItemsFilteredByType(Collection<ItemType> types) {
+        return dao.getItemsFilteredByType(types);
     }
+
+    public Collection<Item> getItemsFilteredByManufacturer(Collection<String> manufacturers) {
+        return dao.getItemsFilteredByManufacturer(manufacturers);
+    }
+
+    public Collection<Item> getItemsFiltered(Collection<ItemType> types, Collection<String> manufacturers) {
+        return dao.getItemsFiltered(types, manufacturers);
+    }
+
 
     public Collection<Item> getItemsBetween(double min, double max) {
         return dao.getItemsBetween(min, max);
     }
 
-    public Collection<Item> getItemsByManufacturer(String manufacturer) {
-        return dao.getItemsByManufacturer(manufacturer);
-    }
 
     public Collection<Item> getItemsByName(String name) {
         return getItemsByName(name);

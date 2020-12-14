@@ -1,5 +1,6 @@
 package controllers;
 
+import helper.ListMergeHelper;
 import model.Item;
 import model.ItemType;
 import org.json.JSONArray;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import service.ItemServiceImpl;
 import service.ItemTypeServiceImpl;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 @RestController
@@ -23,10 +25,33 @@ public class ItemRestController {
 
     @GetMapping(value = "/items", produces = "application/json")
     @ResponseBody
-    public String getItems(){
+    public String getItems(@RequestParam("type") String type,
+                           @RequestParam("manufacturer") String manufacturer){
         //tesztAdatBetoltes();
         try{
-            Collection<Item> items = itemJsonDB.getItems();
+            Collection<Item> items = null;
+            JSONArray types = new JSONArray(type);
+            JSONArray manufacturers = new JSONArray(manufacturer);
+            Collection<ItemType> typesList = new ArrayList<>();
+            Collection<String> manufacturersList = new ArrayList<>();
+
+            for (int i = 0; i < types.length(); i++){
+                typesList.add(ItemType.valueOf(types.getString(i).toUpperCase()));
+            }
+            for (int i = 0; i < manufacturers.length(); i++){
+                manufacturersList.add(manufacturers.getString(i));
+            }
+
+            if (types.isEmpty() && manufacturers.isEmpty()){
+                 items = itemJsonDB.getItems();
+            } else if(!types.isEmpty() && manufacturers.isEmpty()){
+                items = itemJsonDB.getItemsFilteredByType(typesList);
+            } else if (types.isEmpty() && !manufacturers.isEmpty()){
+                items = itemJsonDB.getItemsFilteredByManufacturer(manufacturersList);
+            } else {
+                items = itemJsonDB.getItemsFiltered(typesList, manufacturersList);
+            }
+
             if (items != null && !items.isEmpty()){
                 JSONArray responseArray = new JSONArray();
                 items.forEach(item -> responseArray.put(new JSONObject(item)));
@@ -35,6 +60,7 @@ public class ItemRestController {
                 return new JSONObject().put("error", "1").put("msg", "There are no items available!").toString();
             }
         }catch (Exception e){
+            e.printStackTrace();
             return new JSONObject().put("error", "3").put("msg", "Unexpected error!").toString();
         }
     }
@@ -63,7 +89,9 @@ public class ItemRestController {
             return new JSONObject().put("error", "1").put("msg", "Unexpected error!").toString();
         }
     }
-/*
+
+
+    /*
     private void tesztAdatBetoltes(){
         try {
             Item item1 = new Item();
@@ -142,6 +170,7 @@ public class ItemRestController {
         } catch (InvalidValueException e) {
             e.printStackTrace();
         }
-    }*/
+    }
+    */
 
 }

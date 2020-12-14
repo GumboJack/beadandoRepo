@@ -32,41 +32,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/user.jsp">
+      <file leaf-file-name="ItemDAOJSON.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/ItemDAOJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="145" column="119" selection-start-line="145" selection-start-column="119" selection-end-line="145" selection-end-column="119" />
+            <state relative-caret-position="260">
+              <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerRestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/CustomerRestController.java">
+      <file leaf-file-name="IItemService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/service/IItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="155" column="63" lean-forward="true" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/model/ItemType.java">
+      <file leaf-file-name="ItemDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/DAO/ItemDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDAOJSON.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/CustomerDAOJSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
+            <state relative-caret-position="187">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -74,48 +62,26 @@
       <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/navbar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvoiceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/service/InvoiceServiceImpl.java">
+      <file leaf-file-name="ItemRestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/ItemRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invoice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/model/Invoice.java">
+      <file leaf-file-name="items.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/items.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatcherController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/DispatcherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="114" column="64" selection-start-line="114" selection-start-column="64" selection-end-line="114" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -126,14 +92,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
         <option value="CSS File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="jsf" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -151,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/main.jsp" />
-        <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/imports.jsp" />
-        <option value="$PROJECT_DIR$/webapp/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/countries.json" />
         <option value="$PROJECT_DIR$/core/src/main/java/model/Role.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/DAO/CustomerDAO.java" />
@@ -173,11 +136,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/service/ItemTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/controllers/TypeHelperConfig.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/controllers/ItemConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/service/IItemService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/DAO/ItemDAO.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/service/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dao_json/src/main/java/JSON/ItemDAOJSON.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/controllers/ItemRestController.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/cart.xhtml" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/cart.jsp" />
@@ -193,7 +151,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/DAO/InvoiceDAO.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/service/InvoiceService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/service/InvoiceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/items.jsp" />
         <option value="$PROJECT_DIR$/spring/src/main/java/controllers/DispatcherController.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/navbar.jsp" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
@@ -202,6 +159,15 @@
         <option value="$PROJECT_DIR$/core/src/main/java/model/Invoice.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/user.jsp" />
         <option value="$PROJECT_DIR$/spring/src/main/java/controllers/CustomerRestController.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/java/helper/ListMergeHelperTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/helper/ListMergeHelper.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/items.jsp" />
+        <option value="$PROJECT_DIR$/core/src/main/java/service/IItemService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/DAO/ItemDAO.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/service/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dao_json/src/main/java/JSON/ItemDAOJSON.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/controllers/ItemRestController.java" />
+        <option value="$PROJECT_DIR$/dao_json/src/test/java/JSON/ItemDAOJSONTest.java" />
       </list>
     </option>
   </component>
@@ -292,6 +258,22 @@
             <path>
               <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
               <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
               <item name="dao_json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,6 +305,74 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao_json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao_json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao_json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
@@ -359,6 +409,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="szamlazo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="szamlazo" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -383,10 +487,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="helper" />
       <recent name="JSON" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\suli\szamlazo\webapp\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\suli\szamlazo\webapp\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\suli\szamlazo\webapp\src\main\webapp" />
@@ -395,9 +501,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\suli\szamlazo\webapp\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\suli\szamlazo\webapp\src\main\webapp\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,52 +535,6 @@
       <option name="MAIN_CLASS_NAME" value="JSON.CustomerDAOJSONTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CustomerDAOJSONTest.addCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dao_json" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JSON" />
-      <option name="MAIN_CLASS_NAME" value="JSON.CustomerDAOJSONTest" />
-      <option name="METHOD_NAME" value="addCustomer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CustomerDAOJSONTest.getCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dao_json" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="JSON" />
-      <option name="MAIN_CLASS_NAME" value="JSON.CustomerDAOJSONTest" />
-      <option name="METHOD_NAME" value="getCustomer" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -522,6 +581,52 @@
       <option name="MAIN_CLASS_NAME" value="JSON.ItemDAOJSONTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ItemDAOJSONTest.getItemsByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao_json" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JSON" />
+      <option name="MAIN_CLASS_NAME" value="JSON.ItemDAOJSONTest" />
+      <option name="METHOD_NAME" value="getItemsByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ListMergeHelperTest.mergeItemLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="helper" />
+      <option name="MAIN_CLASS_NAME" value="helper.ListMergeHelperTest" />
+      <option name="METHOD_NAME" value="mergeItemLists" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -643,18 +748,18 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5" />
       <item itemvalue="JUnit.CustomerDAOJSONTest" />
-      <item itemvalue="JUnit.CustomerDAOJSONTest.getCustomer" />
       <item itemvalue="JUnit.ItemDAOJSONTest" />
-      <item itemvalue="JUnit.CustomerDAOJSONTest.addCustomer" />
       <item itemvalue="JUnit.CustomerDAOJSONTest.test" />
+      <item itemvalue="JUnit.ListMergeHelperTest.mergeItemLists" />
+      <item itemvalue="JUnit.ItemDAOJSONTest.getItemsByType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemDAOJSONTest.getItemsByType" />
         <item itemvalue="JUnit.CustomerDAOJSONTest" />
         <item itemvalue="JUnit.ItemDAOJSONTest" />
+        <item itemvalue="JUnit.ListMergeHelperTest.mergeItemLists" />
         <item itemvalue="JUnit.CustomerDAOJSONTest.test" />
-        <item itemvalue="JUnit.CustomerDAOJSONTest.addCustomer" />
-        <item itemvalue="JUnit.CustomerDAOJSONTest.getCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -677,29 +782,11 @@
       <workItem from="1607594521488" duration="18906000" />
       <workItem from="1607682098334" duration="24282000" />
       <workItem from="1607782852302" duration="2525000" />
-      <workItem from="1607943811879" duration="6921000" />
+      <workItem from="1607943811879" duration="27325000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerDAOJSONTest_addCustomer - 2020.12.01 at 12h 56m 37s.xml">
-      <configuration name="CustomerDAOJSONTest.addCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOJSONTest_addCustomer - 2020.12.01 at 12h 57m 06s.xml">
-      <configuration name="CustomerDAOJSONTest.addCustomer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOJSONTest_test - 2020.12.01 at 13h 02m 15s.xml">
-      <configuration name="CustomerDAOJSONTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOJSONTest_test - 2020.12.01 at 13h 02m 47s.xml">
-      <configuration name="CustomerDAOJSONTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOJSONTest_test - 2020.12.01 at 13h 03m 39s.xml">
-      <configuration name="CustomerDAOJSONTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerDAOJSONTest_test - 2020.12.01 at 13h 10m 07s.xml">
-      <configuration name="CustomerDAOJSONTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerDAOJSONTest - 2020.12.01 at 13h 26m 42s.xml">
       <configuration name="CustomerDAOJSONTest" configurationId="JUnit" />
     </history-entry>
@@ -712,9 +799,27 @@
     <history-entry file="CustomerDAOJSONTest - 2020.12.02 at 23h 32m 05s.xml">
       <configuration name="CustomerDAOJSONTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListMergeHelperTest_mergeItemLists - 2020.12.14 at 17h 14m 09s.xml">
+      <configuration name="ListMergeHelperTest.mergeItemLists" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListMergeHelperTest_mergeItemLists - 2020.12.14 at 17h 15m 20s.xml">
+      <configuration name="ListMergeHelperTest.mergeItemLists" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListMergeHelperTest_mergeItemLists - 2020.12.14 at 17h 16m 45s.xml">
+      <configuration name="ListMergeHelperTest.mergeItemLists" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemDAOJSONTest - 2020.12.14 at 18h 53m 25s.xml">
+      <configuration name="ItemDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerDAOJSONTest - 2020.12.14 at 18h 53m 32s.xml">
+      <configuration name="CustomerDAOJSONTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemDAOJSONTest_getItemsByType - 2020.12.14 at 21h 33m 03s.xml">
+      <configuration name="ItemDAOJSONTest.getItemsByType" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352192000" />
+    <option name="totallyTimeSpent" value="372596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -739,7 +844,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.2820513" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.18376069" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2818792" />
@@ -804,34 +909,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/exception/ObjectDoesNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/exception/ObjectAlreadyExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/DAO/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao_json/items.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -844,25 +921,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/ItemController.java" />
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/CustomerController.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/DAO/ItemTypeDAO.java" />
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/TypeHelperRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/service/ItemTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -880,51 +943,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/service/IItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/service/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/ItemDAOJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="132" column="102" selection-start-line="132" selection-start-column="102" selection-end-line="132" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/ItemRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/DAO/ItemDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/cart.xhtml" />
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="185" column="42" lean-forward="true" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -979,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1021,27 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/items.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="122" column="13" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="122" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
           <caret line="93" column="53" lean-forward="true" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/DispatcherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/InvoiceDAOJSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1080,10 +1070,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/CustomerRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2148">
+          <caret line="155" column="63" lean-forward="true" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="145" column="119" selection-start-line="145" selection-start-column="119" selection-end-line="145" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/model/ItemType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/CustomerDAOJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1111,27 +1125,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/CustomerDAOJSON.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/DispatcherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="145" column="119" selection-start-line="145" selection-start-column="119" selection-end-line="145" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/CustomerRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="155" column="63" lean-forward="true" selection-start-line="155" selection-start-column="63" selection-end-line="155" selection-end-column="63" />
+        <state relative-caret-position="306">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/java/helper/ListMergeHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao_json/src/test/java/JSON/CustomerDAOJSONTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/helper/ListMergeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/views/items.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="114" column="64" selection-start-line="114" selection-start-column="64" selection-end-line="114" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/service/ItemTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/service/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/DAO/ItemDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/service/IItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao_json/src/main/java/JSON/ItemDAOJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="121" column="54" lean-forward="true" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao_json/src/test/java/JSON/ItemDAOJSONTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="246" column="111" selection-start-line="246" selection-start-column="111" selection-end-line="246" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/controllers/ItemRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
         </state>
       </provider>
     </entry>

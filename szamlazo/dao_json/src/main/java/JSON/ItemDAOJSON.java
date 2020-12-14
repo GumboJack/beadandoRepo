@@ -13,6 +13,7 @@ import model.ItemType;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -104,8 +105,23 @@ public class ItemDAOJSON implements ItemDAO {
     }
 
     @Override
-    public Collection<Item> getItemsByType(@NotNull ItemType type) {
-        return getItems().stream().filter(item -> item.getType() == type).collect(Collectors.toList());
+    public Collection<Item> getItemsFilteredByType(Collection<ItemType> types) {
+        return getItems().stream().filter(item -> types.contains(item.getType())).collect(Collectors.toList());
+    }
+
+    @Override
+    public Collection<Item> getItemsFiltered(Collection<ItemType> types, Collection<String> manufacturers) {
+        return getItems().stream().filter(item -> types.contains(item.getType()) &&
+                manufacturers.stream().anyMatch(manufacturer -> RegexHelper.containsWord(item.getManufacturer(), manufacturer)))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public Collection<Item> getItemsFilteredByManufacturer(Collection<String> manufacturers) {
+        return getItems().stream()
+                .filter(item -> manufacturers.stream()
+                        .anyMatch(manufacturer -> RegexHelper.containsWord(item.getManufacturer(), manufacturer)))
+                .collect(Collectors.toList());
     }
 
     @Override
@@ -118,10 +134,6 @@ public class ItemDAOJSON implements ItemDAO {
         return getItems().stream().filter(item -> item.getStock() <= Item.stockLow).collect(Collectors.toList());
     }
 
-    @Override
-    public Collection<Item> getItemsByManufacturer(String manufacturer) {
-        return getItems().stream().filter(item -> RegexHelper.containsWord(item.getManufacturer(), manufacturer)).collect(Collectors.toList());
-    }
 
     @Override
     public Collection<Item> getItemsByName(String name) {

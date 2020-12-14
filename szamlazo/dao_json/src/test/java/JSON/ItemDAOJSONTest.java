@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static helper.FileHelper.deleteFile;
 import static java.util.stream.Collectors.toCollection;
@@ -243,7 +244,7 @@ public class ItemDAOJSONTest {
         jsonDAO.addItem(item2);
         jsonDAO.addItem(item3);
 
-        assertTrue(jsonDAO.getItemsByType(ItemType.ACESSORIES).stream().allMatch(item -> item.getType().equals(ItemType.ACESSORIES)));
+        assertTrue(jsonDAO.getItemsFilteredByType(new ArrayList<ItemType>(Arrays.asList(ItemType.ACESSORIES))).stream().allMatch(item -> item.getType().equals(ItemType.ACESSORIES)));
     }
 
     @org.junit.Test
